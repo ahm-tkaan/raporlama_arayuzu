@@ -4,6 +4,7 @@ Analiz tab'ı.
 
 import os
 import pandas as pd
+
 from PyQt5.QtWidgets import (QWidget, QVBoxLayout, QHBoxLayout, QFormLayout, QLabel, 
                            QPushButton, QLineEdit, QCheckBox, QSpinBox, QDoubleSpinBox,
                            QGroupBox, QProgressBar, QComboBox, QTextEdit, QScrollArea,
@@ -11,8 +12,7 @@ from PyQt5.QtWidgets import (QWidget, QVBoxLayout, QHBoxLayout, QFormLayout, QLa
 from PyQt5.QtCore import Qt, pyqtSignal, pyqtSlot, QSize
 from PyQt5.QtGui import QPixmap
 
-from app.views.widgets.chart_widgets import PieChartWidget
-
+from app.widgets.chart_widgets import PieChartWidget
 import logging
 logger = logging.getLogger(__name__)
 
